@@ -46,6 +46,9 @@ return {
             },
             typescript = {
               updateImportsOnFileMove = { enabled = "always" },
+              tsserver = {
+                maxTsServerMemory = 4096,
+              },
               suggest = {
                 completeFunctionCalls = true,
               },
